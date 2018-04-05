@@ -1,26 +1,47 @@
+
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-        <meta charset="UTF-8">
-       <title> contact Paul</title>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+  <html lang="en">
+      <head>
+    <meta charset="UTF-8">
+    <title>paul N</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <form action="https://formspree.io/" method="POST">
+      
+      <input type="hidden" name="_subject" value="honey">
+      <input type="hidden" name="_next" value="https://coder44.github.io/thanks.html">
+      
+      
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+      </div>
 
-        <nav>
-<ul>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="text" name="_replyto">  
+      </div>
 
-        <li><a href="index.html">home</a></li>
-        <li><a href="resume.html">resume</a></li>
-        <li><a href="contact.html">contact</a></li>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
 
+      <div>
+        <input type="submit" value="Send">
+      </div>
 
+    </form>
 
-</ul>
-
-        </nav>
-        <h1> hello guys whats up </h1>
-        <img src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="My Avatar">
-    </body>
+  </body>
 </html>
